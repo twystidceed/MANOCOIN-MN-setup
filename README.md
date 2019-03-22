@@ -1,0 +1,1 @@
+# MANO-MN-setup
