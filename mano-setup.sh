@@ -190,7 +190,7 @@ sudo service fail2ban restart
 sudo apt-get install -y libdb5.3++-dev libdb++-dev libdb5.3-dev libdb-dev && ldconfig
 sudo apt-get install -y libzmq3-dev build-essential libssl-dev libboost-all-dev libqrencode-dev libminiupnpc-dev libboost-system1.58.0 libboost1.58-all-dev libdb4.8++ libdb4.8 libdb4.8-dev libdb4.8++-dev libevent-pthreads-2.0-5
    fi
-sudo apt-get install libboost-all-dev
+sudo apt-get install -y libboost-all-dev
 #Network Settings
 echo -e "${GREEN}Installing Network Settings...${NC}"
 {
